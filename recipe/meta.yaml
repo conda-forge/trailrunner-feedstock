@@ -1,5 +1,5 @@
 {% set name = "trailrunner" %}
-{% set version = "1.2.1" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trailrunner-{{ version }}.tar.gz
-  sha256: 157de2b2d82139d9583ec1dbc1981c33b39e24c420bb5294f86083f1f4b44311
+  sha256: f16eb26c7da6f74158cb69b8f2c756139cedb53f01d7562ea0a3564380b67275
 
 build:
   noarch: python
